@@ -1,0 +1,125 @@
+@font-face {
+  font-family: FoundersGrotesk;
+  src: url("/assets/fonts/FoundersGrotesk-Light.otf");
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  background: #000;
+  color: #fff;
+  margin: 0;
+  padding: 0 2rem;
+  font-family: "FoundersGrotesk", sans-serif;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title {
+  height: 8rem;
+  letter-spacing: 5px;
+  font-size: 10rem;
+  overflow: hidden;
+}
+
+.ham {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.line {
+  width: 2rem;
+  height: 3px;
+  background: #fff;
+}
+
+.line-thin {
+  width: 2rem;
+  height: 2px;
+  background: #fff;
+}
+
+.master {
+  margin-top: 1.7rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.whale {
+  height: 41vh;
+  background: url("/assets/images/whale.jpg");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tree {
+  height: 41vh;
+  background:url("/assets/images/tree.png");
+  background-size: 110%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.master-title {
+  margin-top: 2rem;
+  color: #fff;
+  font-size: 3.2vw;
+  line-height: 85%;
+}
+
+.master-desc {
+  font-weight: 200;
+  color:#707070;
+  align-self: end;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border-color:#454545;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  gap: 2.2rem;
+}
+
+.footer {
+  height: 4vw;
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  flex-direction: column;
+  /* gap: 0.2rem; */
+}
+
+.item {
+  display: flex;
+  align-items: center;
+  font-size: 0.8rem;
+  padding: 1rem;
+  border-bottom: 1px solid #454545;
+}
+
+.item:hover {
+  background-color: #333;
+}
